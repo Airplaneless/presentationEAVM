@@ -2,77 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade96d74-e29b-4177-a2c6-5aac902ab5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_2p/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_lv/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s100/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bv0_s20/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/bv45.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bv0.html" beforeDir="false" afterPath="$PROJECT_DIR$/bv0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/bv90.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/bv90.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.html" beforeDir="false" afterPath="$PROJECT_DIR$/uv.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,23 +20,24 @@
     <session id="-1659011809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="md" value="330" />
+          <entry key="md" value="368" />
           <entry key="py" value="243" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="330" />
+          <entry key="Markdown" value="368" />
           <entry key="PLAIN_TEXT" value="78" />
           <entry key="Python" value="243" />
         </counts>
@@ -110,6 +47,7 @@
           <entry key="html" value="2" />
           <entry key="ipynb" value="1" />
           <entry key="jpg" value="1" />
+          <entry key="png" value="1" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
@@ -117,7 +55,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="IPNB" value="1" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
@@ -129,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <first_editor relative-caret-position="482">
+                <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
+            <state relative-caret-position="935">
               <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -202,6 +140,11 @@
               <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -209,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonStuff/YoutubeDownload/download.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -303,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535020678816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bv90 fix">
+      <created>1535020835770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535020835770</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
@@ -350,9 +300,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segments_plot/plot.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/segments_plot/plot.html" />
     <entry file="file://$PROJECT_DIR$/Stats.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -365,7 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/createPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
+        <state relative-caret-position="935">
           <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -373,11 +321,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pics/bv45.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <first_editor relative-caret-position="482">
+            <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
