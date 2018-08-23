@@ -27,7 +27,7 @@ For unipolar:
 </iframe>
 
 `Horizontal BV electodes placements`
-<img src="https://airplaneless.github.io/presentationEAVM/pics/bv0.png" alt="bv90" width="500" height="333">
+<img src="https://airplaneless.github.io/presentationEAVM/pics/bv0.png" alt="bv0" width="500" height="333">
 
 <iframe src='https://airplaneless.github.io/presentationEAVM/bv0.html'
     sandbox="allow-same-origin allow-scripts"
