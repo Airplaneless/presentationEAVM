@@ -25,7 +25,7 @@ def RAD(deg):
 def CREATE_STATS_PLOTS(num_seg):
     df = data_lv.loc[data_lv.Segm == num_seg]
     result = sm.ols(formula="Voltage ~ WT", data=df).fit()
-    fig, ax = plt.subplots(ncols=3, figsize=(6, 2))
+    fig, ax = plt.subplots(nrows=3, figsize=(3, 9))
     fig.tight_layout(pad=1)
     sns.pointplot(x='WT', y='Voltage', data=df, ax=ax[2])
     ax[2].set_title('Conf. intervals')
@@ -82,12 +82,12 @@ if __name__ == '__main__':
         r2=[GET_R2(i)],
         slope=[GET_SLOPE(i)])) for i in [6, 1, 2, 3, 4, 5]]
 
-    p = figure(plot_width=700, plot_height=700, x_range=(-10, 10), y_range=(-10, 10))
+    p = figure(plot_width=500, plot_height=700, x_range=(-10, 10), y_range=(-10, 10))
 
     r0 = 2
     rd = 2
     p.axis.visible = False
-    p.ellipse([0], [0], width=20, height=15.3, height_units='data', width_units='data', fill_color='white',
+    p.ellipse([0], [0], width=20, height=11, height_units='data', width_units='data', fill_color='white',
               line_width=6)
     p.patch([0, 10, 10, 0, 0], [10, 10, -10, -10, 10], fill_color='white', line_color='white')
     p.wedge(x=0, y=0, radius=r0, start_angle=RAD(0), end_angle=RAD(360), color="firebrick", alpha=0.6, source=s_apex)
@@ -113,7 +113,7 @@ if __name__ == '__main__':
             </div>
             <div>
                 <img
-                    src="@img" height="200" alt="@img" width="600"
+                    src="@img" height="360" alt="@img" width="120"
                     style="float: left; margin: 0px 15px 15px 0px;"
                     border="2"
                 ></img>
