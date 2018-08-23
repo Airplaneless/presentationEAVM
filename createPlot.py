@@ -106,8 +106,7 @@ if __name__ == '__main__':
                         end_angle=RAD(60 + i * 60), color="blue", alpha=0.6,
                         source=s_basal_2[i])
 
-    p.add_tools(HoverTool(attachment="right",
-                          tooltips="""
+    p.add_tools(HoverTool(tooltips="""
         <div>
             <div>
                 <span style="font-size: 12;"><b>Segment</b>: @name</span><br />
