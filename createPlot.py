@@ -16,7 +16,7 @@ plt.style.use('bmh')
 
 HOME = str(Path.home())
 
-PLOT_DIR = os.path.join(HOME, 'source/presentationEAVM/segments_plot')
+PLOT_DIR = os.path.join(HOME, 'source/presentationEAVM/plots')
 
 def RAD(deg):
     return deg * np.pi / 180.0
@@ -59,6 +59,10 @@ if __name__ == '__main__':
         raise ValueError('No path to data')
 
     data_lv = pd.read_csv(args.f, index_col=0)
+    folder = args.f.split('/')[-1].split('.')[0]
+    PLOT_DIR = os.path.join(PLOT_DIR, folder)
+    if not os.path.isdir(PLOT_DIR):
+        os.mkdir(PLOT_DIR)
 
     for n in tqdm(range(1, 18)):
         CREATE_STATS_PLOTS(n)

@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade96d74-e29b-4177-a2c6-5aac902ab5f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/createPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/createPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.ipynb_checkpoints/LV-checkpoint.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/.ipynb_checkpoints/1-checkpoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segments_plot/plot.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +39,21 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="md" value="16" />
+          <entry key="md" value="221" />
           <entry key="py" value="243" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="16" />
+          <entry key="Markdown" value="221" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="Python" value="243" />
         </counts>
@@ -38,6 +62,7 @@
         <counts>
           <entry key="html" value="2" />
           <entry key="ipynb" value="1" />
+          <entry key="jpg" value="1" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
@@ -45,23 +70,29 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="IPNB" value="1" />
+          <entry key="Image" value="1" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="306">
+                <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pics/segments.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -73,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+            <state relative-caret-position="646">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -105,9 +136,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/Stats.ipynb" />
         <option value="$PROJECT_DIR$/createPlot.py" />
+        <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
@@ -133,6 +164,11 @@
               <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,6 +178,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonStuff/YoutubeDownload/download.py" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pics" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,14 +247,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -221,6 +259,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,6 +278,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="pics" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../PythonStuff/YoutubeDownload/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segments_plot/plot.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Stats.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -243,36 +295,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PythonStuff/YoutubeDownload/download.py">
+    <entry file="file://$PROJECT_DIR$/createPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="646">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <element signature="e#19#36#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segments_plot/plot.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pics/segments.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
