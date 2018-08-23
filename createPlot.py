@@ -63,22 +63,22 @@ if __name__ == '__main__':
     for n in tqdm(range(1, 18)):
         CREATE_STATS_PLOTS(n)
 
-    s_apex = ColumnDataSource(data=dict(name=['17'], img=['./17.png'], r2=[GET_R2(17)], slope=[GET_SLOPE(17)]))
+    s_apex = ColumnDataSource(data=dict(name=['17'], img=['17.png'], r2=[GET_R2(17)], slope=[GET_SLOPE(17)]))
 
     s_apical = [ColumnDataSource(data=dict(
         name=['{}'.format(12 + i)],
-        img=['./{}.png'.format(12 + i)],
+        img=['{}.png'.format(12 + i)],
         r2=[GET_R2(12 + i)],
         slope=[GET_SLOPE(12 + i)])) for i in [4, 1, 2, 3]]
 
     s_basal_1 = [ColumnDataSource(data=dict(
-        name=['{}'.format(6 + i)], img=['./{}.png'.format(6 + i)],
+        name=['{}'.format(6 + i)], img=['{}.png'.format(6 + i)],
         r2=[GET_R2(6 + i)],
         slope=[GET_SLOPE(6 + i)])) for i in [6, 1, 2, 3, 4, 5]]
 
     s_basal_2 = [ColumnDataSource(data=dict(
         name=['{}'.format(i)],
-        img=['./{}.png'.format(i)],
+        img=['{}.png'.format(i)],
         r2=[GET_R2(i)],
         slope=[GET_SLOPE(i)])) for i in [6, 1, 2, 3, 4, 5]]
 
