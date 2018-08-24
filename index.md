@@ -1,9 +1,25 @@
 ## UV and BV electrograms for LV endocardium
 
-Statistics of UV and BV for LV segments due to this:
+Statistics of UV and BV for LV segments due to:
 <img src="https://airplaneless.github.io/presentationEAVM/pics/segments.jpg" alt="segments" width="500" height="333">
 
-#### For unipolar:
+
+Notation of activation patterns:
+
+1. lv - LV free wall activation
+2. 2p - Activation at LV free wall and on RV near to apex.
+3. s20 - Activation of 20% of LV subendocardial surface from the apex.
+4. s100 - Activation of entire LV subendocardial surface.
+
+Bipolar electrograms were evaluated at each point of the endocardial surface LV 
+as the difference of signals between points at a distance of 5 mm from each other
+in a certain direction.
+
+Thus, the bipolar electrogram is correlated with the directivity derivative 
+of a unipolar electrogram. That is, BV has high values if the BV electrode is 
+located in the direction of the excitation wave.
+ 
+#### For unipolar voltage:
 
 <iframe src='https://airplaneless.github.io/presentationEAVM/uv.html'
     sandbox="allow-same-origin allow-scripts"
@@ -14,7 +30,7 @@ Statistics of UV and BV for LV segments due to this:
     frameborder="0">
 </iframe>
 
-#### For bipolar:
+#### For bipolar voltage:
 `Vertical BV electodes placements`
 <img src="https://airplaneless.github.io/presentationEAVM/pics/bv90.png" alt="bv90" width="500" height="333">
 

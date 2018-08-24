@@ -1,13 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade96d74-e29b-4177-a2c6-5aac902ab5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pics/bv45.png" afterDir="false" />
+    <list default="true" id="ade96d74-e29b-4177-a2c6-5aac902ab5f0" name="Default Changelist" comment="bv45">
+      <change afterPath="$PROJECT_DIR$/data/bv45_2p.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bv45_lv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bv45_s100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bv45_s20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/qrs_lv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/qrs_lv/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/presentationEAVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/presentationEAVM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bv0.html" beforeDir="false" afterPath="$PROJECT_DIR$/bv0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bv45.html" beforeDir="false" afterPath="$PROJECT_DIR$/bv45.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bv90.html" beforeDir="false" afterPath="$PROJECT_DIR$/bv90.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/createPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/bv45.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/bv45.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pics/bv90.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/bv90.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/2p/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/2p/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_2p/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_2p/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_lv/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_lv/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s100/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s100/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv0_s20/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv0_s20/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_2p/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_2p/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_lv/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_lv/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s100/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s100/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv45_s20/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv45_s20/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_2p/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_2p/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_lv/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_lv/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s100/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s100/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bv90_s20/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/bv90_s20/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/lv/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/lv/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s100/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s100/plot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/s20/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/s20/plot.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uv.html" beforeDir="false" afterPath="$PROJECT_DIR$/uv.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +326,27 @@
     <session id="-1659011809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="md" value="368" />
-          <entry key="py" value="243" />
-          <entry key="txt" value="70" />
+          <entry key="md" value="758" />
+          <entry key="py" value="648" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="368" />
-          <entry key="PLAIN_TEXT" value="78" />
-          <entry key="Python" value="243" />
+          <entry key="Markdown" value="758" />
+          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="Python" value="648" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,8 +374,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="482">
-                <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,8 +390,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -132,7 +439,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,17 +449,23 @@
             <path>
               <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="presentationEAVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="presentationEAVM" type="462c0819:PsiDirectoryNode" />
               <item name="pics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -253,11 +565,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535020835770</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bv45">
+      <created>1535036124733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535036124733</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bv45">
+      <created>1535036148062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535036148062</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1046" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
@@ -290,7 +616,8 @@
     <MESSAGE value="changed script" />
     <MESSAGE value="bv0 plot" />
     <MESSAGE value="bv90 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bv90 fix" />
+    <MESSAGE value="bv45" />
+    <option name="LAST_COMMIT_MESSAGE" value="bv45" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../PythonStuff/YoutubeDownload/download.py">
@@ -308,27 +635,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pics/bv45.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pics/segments.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/createPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pics/bv45.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="482">
-            <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <first_editor relative-caret-position="374">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
