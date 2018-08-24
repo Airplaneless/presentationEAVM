@@ -71,3 +71,6 @@ located in the direction of the excitation wave.
 
 <img src="https://airplaneless.github.io/presentationEAVM/pics/heatmap.png" alt="heatmap" width="100%">
 
+##### P values for all cases and LV segments
+
+<img src="https://airplaneless.github.io/presentationEAVM/pics/pvals.png" alt="heatmap" width="100%">
