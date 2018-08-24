@@ -32,7 +32,7 @@ located in the direction of the excitation wave.
 
 #### For bipolar voltage:
 `Vertical BV electodes placements`
-<img src="https://airplaneless.github.io/presentationEAVM/pics/bv90.png" alt="bv90" width="500" height="333">
+<img src="https://airplaneless.github.io/presentationEAVM/pics/bv90.png" alt="bv90" width="100%">
 
 <iframe src='https://airplaneless.github.io/presentationEAVM/bv90.html'
     sandbox="allow-same-origin allow-scripts"
@@ -44,7 +44,7 @@ located in the direction of the excitation wave.
 </iframe>
 
 `Horizontal BV electodes placements`
-<img src="https://airplaneless.github.io/presentationEAVM/pics/bv0.png" alt="bv0" width="500" height="333">
+<img src="https://airplaneless.github.io/presentationEAVM/pics/bv0.png" alt="bv0" width="100%">
 
 <iframe src='https://airplaneless.github.io/presentationEAVM/bv0.html'
     sandbox="allow-same-origin allow-scripts"
@@ -56,7 +56,7 @@ located in the direction of the excitation wave.
 </iframe>
 
 `45 deg BV electodes placements`
-<img src="https://airplaneless.github.io/presentationEAVM/pics/bv45.png" alt="bv45" width="500" height="333">
+<img src="https://airplaneless.github.io/presentationEAVM/pics/bv45.png" alt="bv45" width="100%">
 
 <iframe src='https://airplaneless.github.io/presentationEAVM/bv45.html'
     sandbox="allow-same-origin allow-scripts"
@@ -66,3 +66,8 @@ located in the direction of the excitation wave.
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+##### R2 scores and slope for all cases and LV segments
+
+<img src="https://airplaneless.github.io/presentationEAVM/pics/heatmap.png" alt="heatmap" width="100%">
+
