@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -5,12 +6,10 @@ import statsmodels.formula.api as sm
 import pylab as plt
 import argparse
 import os
+import matplotlib
+from matplotlib.gridspec import GridSpec
 from pathlib import Path
 from tqdm import tqdm
-from bokeh.plotting import figure, ColumnDataSource
-from bokeh.models import FuncTickFormatter, LabelSet, Label, ColumnDataSource, TextAnnotation
-from bokeh.models import HoverTool
-from bokeh.io import show, push_notebook, output_notebook, output_file
 
 plt.style.use('bmh')
 
@@ -25,19 +24,26 @@ def RAD(deg):
 def CREATE_STATS_PLOTS(num_seg, out_dir):
     df = data_lv.loc[data_lv.Segm == num_seg]
     result = sm.ols(formula="Voltage ~ WT", data=df).fit()
-    fig, ax = plt.subplots(nrows=2, figsize=(5, 7))
-    fig.tight_layout(pad=3)
-    #sns.pointplot(x='WT', y='Voltage', data=df, ax=ax[2])
-    #ax[2].set_title('Conf. intervals')
-    ax[0].set_title('Residuals')
-    ax[1].set_title('Regression plot for {} segment'.format(num_seg))
 
-    sns.distplot(result.resid, ax=ax[0])
-    sns.regplot(x='WT', y='Voltage', data=df, ax=ax[1], x_jitter=.1, x_estimator=np.mean)
+    fig = plt.figure(figsize=(5, 7))
 
-    box_text = 'r2 = {}\nslope = {}'.format(round(GET_R2(num_seg), 5), round(GET_SLOPE(num_seg), 5))
+    gs = GridSpec(3, 1)
+    ax2 = fig.add_subplot(gs[2, 0])
+    ax1 = fig.add_subplot(gs[0:2, 0])
+    fig.tight_layout(w_pad=8)
+
+    ax1.set_title('Regression plot for {} segment'.format(num_seg))
+
+    sns.distplot(result.resid, ax=ax2, axlabel='Residuals distribution')
+    sns.regplot(x='WT', y='Voltage', data=df, ax=ax1, x_jitter=.1, x_estimator=np.mean)
+
+    box_text = 'r2 = {}\nslope = {}\np = {}\nNum. observations = {}'.format(round(GET_R2(num_seg), 5),
+                                                                            round(GET_SLOPE(num_seg), 5),
+                                                                            round(result.pvalues['WT'], 10),
+                                                                            int(result.nobs))
     props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
-    ax[1].text(0.05, 0.05, box_text, transform=ax[1].transAxes, bbox=props)
+    ax1.text(0.05, 0.75, box_text, transform=ax1.transAxes, bbox=props)
+
     plt.savefig(os.path.join(out_dir, '{}.png'.format(num_seg)))
     plt.close()
 
